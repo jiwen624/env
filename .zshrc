@@ -154,9 +154,5 @@ export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/zlib/include"
 export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} /usr/local/opt/zlib/lib/pkgconfig"
 # end for python 3.7 installation via brew---------
 
-# AO home
-export AOHOME=~/go/src/github.com/appoptics/appoptics-apm-go
-alias cdaohome='cd $AOHOME'
-
 bindkey "\e\e[D" backward-word
 bindkey "\e\e[C" forward-word
